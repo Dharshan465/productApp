@@ -1,0 +1,17 @@
+Student > Course enrolment Requirements:
+
+Admin / Course API:
+*1. Admin wants to add / update a course
+*2. See all students registered
+*3. see all students registered to a course
+API: GET:course/{course_id}/students
+
+Student API:
+*1. Student wants to register
+*2. Wants to see all courses available
+*3. Enroll to a course [by making payment]
+API: student/{student_id}/course/{course_id}
+
+Common API:
+1. Enrolled courses by student id.
+REST API[end point]: student/{student_id}/course

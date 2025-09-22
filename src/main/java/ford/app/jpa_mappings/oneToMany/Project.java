@@ -1,7 +1,10 @@
 package ford.app.jpa_mappings.oneToMany;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import ford.app.jpa_mappings.oneToOne.Employee;
 import jakarta.persistence.*;
+
+import java.util.Collection;
 
 @Entity
 public class Project {
@@ -58,4 +61,6 @@ public class Project {
     public void setDepartment(Department department) {
         this.department = department;
     }
+
+
 }
